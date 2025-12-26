@@ -1,0 +1,27 @@
+{
+  "name": "ecommerce-api-json-server",
+  "version": "1.0.0",
+  "description": "API REST mockada para projeto de curso Databricks - E-commerce com estrutura Medallion",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "json-server --watch db.json --port 3000",
+    "server": "json-server --watch db.json --port 3000 --host 0.0.0.0"
+  },
+  "keywords": [
+    "json-server",
+    "api",
+    "rest",
+    "ecommerce",
+    "databricks"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "json-server": "^0.17.4"
+  },
+  "engines": {
+    "node": "24.x"
+  }
+}
+
